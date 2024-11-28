@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "AI Chat Assistant",
+  "version": "1.0.0",
+  "description": "Chat with AI about webpage content",
+  "icons": {
+    "48": "assets/icon48.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "assets/icon48.png"
+    }
+  }
+}
